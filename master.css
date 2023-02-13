@@ -237,3 +237,43 @@ body{
     }
     
 }
+@media(min-width: 375px) and (max-width:765px){
+    .landing-header {
+        background: var(--Very-Pale-Cyan) url(/images/bg-hero-desktop.svg) no-repeat;
+        padding: 1rem;
+    }
+    .landing-header .nav-bar .try-btn {
+        widows: 7rem;
+    }
+    .header-content .left-side {
+        padding-top: 1rem;
+    }
+
+    .landing-header .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.2rem;
+    }
+    .header-content .right-side img {
+        height: 200px;
+    }
+    .body-content .card .card-detail {
+        padding: 1rem;
+    }
+    .body-content .card img {
+        height: 200px;
+    }
+    .ready-card {
+        width: fit-content; 
+    }
+    .footer{
+        padding: 10rem 2rem;
+    }
+    .ready-card h1 {
+        color: var(--Very-Dark-Cyan);
+        padding: 0.5rem;
+    }
+    .ready-card .get-btn{
+        width: fit-content;
+    }
+}
